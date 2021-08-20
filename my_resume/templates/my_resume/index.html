@@ -220,7 +220,7 @@
 
             <h2>The knights of Safety Academy, Ogun, Nigeria / 2020</h2>
 
-            <p> Health and Safety Inductio</p>
+            <p> Health and Safety Induction</p>
 
 
 
@@ -255,8 +255,9 @@
         <div class="footer-class">
 
             <div class="form">
-
-                <form action="">
+                
+                <form action="" method="post" >
+                    {% csrf_token %}
 
                     <label for="Name"></label>
 
@@ -280,7 +281,7 @@
 
 
 
-                <button>Send!</button>
+                <button type="send">Send</button>
 
             </div>
 
